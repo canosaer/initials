@@ -21,6 +21,7 @@ TABLE OF CONTENTS:
 
 *, *::before, *::after {
 	box-sizing: border-box;
+	overflow: hidden;
 }
 
 body{
@@ -36,16 +37,76 @@ body{
 	height: 400px;
 	width: 400px;
 	position: relative;
-	background: black;
+	background: red;
+}
+
+.initial-display_g{
+
+	&:hover .stem_main{
+		transform: scale(6);
+		left: 45%;
+	}
+
+	&:hover .stem_left-1{
+		transform: rotate(-75deg) scaleX(-1) scale(3);
+		left: 45%;
+		bottom: 40%;
+	}
+
+	&:hover .leaf_main{
+		transform: scale(2.5);
+		bottom: 60%;
+		left: 45%;
+	}
+
+	&:hover .leaf_left-1{
+		transform: rotate(-75deg) scaleX(-1) scale(1.25);
+		bottom: 47.5%;
+		left: 16%;
+	}
+	
+}
+
+.stem{
+	position: absolute;
+	object-fit: cover;
+	object-position: bottom;
+	z-index: 2;
+	transition: all 3s ease-in-out;
+	transform-origin: bottom;
+	width: 50px;
+	height: 45px;
+
+	&_main{
+		bottom: 0%;
+		left: 40%;
+	}
+
+	&_left-1{
+		transform: rotate(-75deg) scaleX(-1) scale(0);
+		left: 40%;
+		bottom: 6%;
+	}
 }
 
 .leaf{
 	position: absolute;
-	top: 10%;
-	left: 10%;
-	background-color: greenyellow;
-	width: 30px;
-	height: 30px;
-	border-radius: 9999px;
-	transform: skew(35deg)
+	object-fit: cover;
+	object-position: top;
+	transition: all 3s ease-in-out;
+	transform-origin: bottom;
+	z-index: 1;
+	width: 50px;
+	height: 58px;
+
+	&_main{
+		bottom: 10%;
+		left: 40%;
+	}
+
+	&_left-1{
+		transform: rotate(-75deg) scaleX(-1) scale(0);
+		left: 40%;
+		bottom: 6%;
+	}
 }

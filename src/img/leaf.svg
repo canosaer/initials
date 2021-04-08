@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns1="http://sozi.baierouge.fr" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" id="svg2" viewBox="0 0 2354.6 4842.1" version="1.1" inkscape:version="0.91 r13725">
+  <defs id="defs4">
+    <filter id="filter4434" width="1.5008" y="-.019394" x="-.25039" height="1.0388" color-interpolation-filters="sRGB">
+      <feGaussianBlur id="feGaussianBlur4436" stdDeviation="18.377044"/>
+    </filter>
+    <filter id="filter4507" width="1.1002" y="-.12784" x="-.050111" height="1.2557" color-interpolation-filters="sRGB">
+      <feGaussianBlur id="feGaussianBlur4509" stdDeviation="13.441532"/>
+    </filter>
+    <filter id="filter4557" width="1.1056" y="-.11306" x="-.052819" height="1.2261" color-interpolation-filters="sRGB">
+      <feGaussianBlur id="feGaussianBlur4559" stdDeviation="9.9034686"/>
+    </filter>
+    <filter id="filter4593" width="1.0831" y="-.10779" x="-.041569" height="1.2156" color-interpolation-filters="sRGB">
+      <feGaussianBlur id="feGaussianBlur4595" stdDeviation="17.138028"/>
+    </filter>
+    <filter id="filter4619" width="1.0822" y="-.11119" x="-.041085" height="1.2224" color-interpolation-filters="sRGB">
+      <feGaussianBlur id="feGaussianBlur4621" stdDeviation="14.158687"/>
+    </filter>
+    <filter id="filter4645" width="1.0804" y="-.11828" x="-.040195" height="1.2366" color-interpolation-filters="sRGB">
+      <feGaussianBlur id="feGaussianBlur4647" stdDeviation="17.916904"/>
+    </filter>
+    <filter id="filter4677" width="1.0726" y="-.17305" x="-.036291" height="1.3461" color-interpolation-filters="sRGB">
+      <feGaussianBlur id="feGaussianBlur4679" stdDeviation="15.818905"/>
+    </filter>
+  </defs>
+  <g id="layer1" transform="translate(-1490.2 1139.7)">
+    <g id="g4420" fill="#008000">
+      <path id="path4416" d="m2668.3-1124.7v2298.4c-480.26 494.22-965.79 500.06-1134 0-266.97-793.54 750.4-1532.9 1134-2298.4z"/>
+      <path id="path4418" d="m2666.7-1124.7v2298.4c480.26 494.22 965.79 500.06 1134 0 266.97-793.54-750.4-1532.9-1134-2298.4z"/>
+    </g>
+    <path id="path4681" d="m2638 1161.5s67.069 894.84 12.129 1337.2c-51.126 411.63-315.35 1203.8-315.35 1203.8l127.35-54.579s239.56-771.29 278.96-1170.4c42.723-432.81-48.515-1303.8-48.515-1303.8z" fill="#008000"/>
+    <path id="path4424" d="m2656.2-1094.4s388.12 1643.4 12.129 2274.1" filter="url(#filter4434)" stroke="#0f0" stroke-width="10" fill="none"/>
+    <path id="path4481" filter="url(#filter4507)" fill-rule="evenodd" fill="#0f0" d="m2802.7 62.722-1.878-9.8221c-121 24.012-249 13.214-364.7-31.013-107.5-41.124-204.2-110.99-277.2-200.59 71.748 90.597 167.73 162.14 275.49 205.07 115.88 46.169 245.1 59.015 368.27 36.347z"/>
+    <path id="path4523" filter="url(#filter4557)" fill-rule="evenodd" fill="#0f0" d="m2851.5 40.837-2.469 9.6904c51.054 12.493 104.43 14.527 156.17 6.7421 0-0.000001 0.0001-0.000003 0.0001-0.000004 51.744-7.7798 101.97-25.396 146.74-52.149v-0.0000136c61.722-36.886 113.07-90.57 147.08-153.5-35.202 62.269-87.377 114.64-149.14 149.97v0.0000064c-44.79 25.626-94.668 42.017-145.67 48.7-50.999 6.6786-103.23 3.6632-152.72-9.4609z"/>
+    <path id="path4567" filter="url(#filter4593)" fill-rule="evenodd" fill="#0f0" d="m2820.9 663.08-1.9716-9.8037c-91.005 18.734-184.7 24.565-277.5 17.715-92.794-6.8514-184.74-26.387-272.23-58.364-85.081-31.094-165.91-73.917-239.75-126.58-73.848-52.661-140.76-115.19-198.02-185.67 56.622 70.997 123.03 134.21 196.58 187.67 73.546 53.455 154.26 97.177 239.48 129.2v0.00001c87.637 32.93 179.95 53.438 273.36 61.183h0.0001c93.406 7.747 187.95 2.7362 280.05-15.353z"/>
+    <path id="path4597" filter="url(#filter4619)" fill-rule="evenodd" fill="#0f0" d="m2840.5 653.76-4.6858 8.8342c76.152 39.874 160.65 63.088 246.16 69.139 85.509 6.0566 172.26-5.0363 252.9-33.657v-0.00002c68.248-24.227 131.96-60.75 187.72-106.73 55.765-45.977 103.66-101.47 140.31-163.62-37.307 61.75-85.716 116.62-141.76 161.84-56.046 45.22-119.81 80.856-187.79 104.18v0.00002c-80.309 27.556-166.36 37.59-250.83 30.714-84.469-6.8828-167.58-30.696-242.03-70.702z"/>
+    <path id="path4623" filter="url(#filter4645)" fill-rule="evenodd" fill="#0f0" d="m2707.2 1105.2-4.9728-8.676c-86.08 49.821-181.92 82.736-280.46 97.574-98.542 14.834-199.97 11.62-297.22-10.718-98.378-22.592-192.22-64.715-275.37-122.25l-0.0001-0.0001c-83.151-57.536-155.78-130.59-211.78-214.97 55.304 84.838 127.41 158.63 210.34 217.03 82.926 58.401 176.83 101.52 275.66 125.08h0.0001c97.703 23.29 199.89 27.408 299.46 13.257 99.572-14.147 196.71-46.59 284.35-96.334z"/>
+    <path id="path4655" filter="url(#filter4677)" fill-rule="evenodd" fill="#0f0" d="m2713.8 1127.2-6.1172 7.9106c82.458 63.183 177.38 109.6 277.31 137.19h0.0001c99.923 27.602 205.05 36.442 307.88 24.578 85.722-9.8934 169.67-33.955 247.79-70.283 78.127-36.328 150.51-84.959 213.14-143.96-63.142 58.447-135.86 106.35-214.09 141.89-78.226 35.539-162.04 58.747-247.35 67.83h-0.0001c-102.33 10.898-206.61 1.1648-305.41-27.061h-0.0001c-98.801-28.231-192.32-75.014-273.16-138.1z"/>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

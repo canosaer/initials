@@ -150,6 +150,7 @@ TABLE OF CONTENTS:
 /* 1. Styles ================================= */
 *, *::before, *::after {
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 body {
@@ -178,18 +179,78 @@ body > *:nth-child(2) {
   height: 400px;
   width: 400px;
   position: relative;
-  background: black;
+  background: red;
+}
+
+.initial-display_g:hover .stem_main {
+  -webkit-transform: scale(6);
+          transform: scale(6);
+  left: 45%;
+}
+.initial-display_g:hover .stem_left-1 {
+  -webkit-transform: rotate(-75deg) scaleX(-1) scale(3);
+          transform: rotate(-75deg) scaleX(-1) scale(3);
+  left: 45%;
+  bottom: 40%;
+}
+.initial-display_g:hover .leaf_main {
+  -webkit-transform: scale(2.5);
+          transform: scale(2.5);
+  bottom: 60%;
+  left: 45%;
+}
+.initial-display_g:hover .leaf_left-1 {
+  -webkit-transform: rotate(-75deg) scaleX(-1) scale(1.25);
+          transform: rotate(-75deg) scaleX(-1) scale(1.25);
+  bottom: 47.5%;
+  left: 16%;
+}
+
+.stem {
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: bottom;
+     object-position: bottom;
+  z-index: 2;
+  transition: all 3s ease-in-out;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  width: 50px;
+  height: 45px;
+}
+.stem_main {
+  bottom: 0%;
+  left: 40%;
+}
+.stem_left-1 {
+  -webkit-transform: rotate(-75deg) scaleX(-1) scale(0);
+          transform: rotate(-75deg) scaleX(-1) scale(0);
+  left: 40%;
+  bottom: 6%;
 }
 
 .leaf {
   position: absolute;
-  top: 10%;
-  left: 10%;
-  background-color: greenyellow;
-  width: 30px;
-  height: 30px;
-  border-radius: 9999px;
-  -webkit-transform: skew(35deg);
-          transform: skew(35deg);
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  transition: all 3s ease-in-out;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  z-index: 1;
+  width: 50px;
+  height: 58px;
+}
+.leaf_main {
+  bottom: 10%;
+  left: 40%;
+}
+.leaf_left-1 {
+  -webkit-transform: rotate(-75deg) scaleX(-1) scale(0);
+          transform: rotate(-75deg) scaleX(-1) scale(0);
+  left: 40%;
+  bottom: 6%;
 }
 /*# sourceMappingURL=main.css.map */
