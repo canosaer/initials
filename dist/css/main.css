@@ -151,4 +151,45 @@ TABLE OF CONTENTS:
 *, *::before, *::after {
   box-sizing: border-box;
 }
+
+body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 100vh;
+  grid-template-rows: 100vh;
+  grid-auto-rows: auto;
+  font-family: "Lucida Sans", sans-serif;
+  place-items: center;
+}
+
+body > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+body > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+}
+
+.initial-display {
+  height: 400px;
+  width: 400px;
+  position: relative;
+  background: black;
+}
+
+.leaf {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  background-color: greenyellow;
+  width: 30px;
+  height: 30px;
+  border-radius: 9999px;
+  -webkit-transform: skew(35deg);
+          transform: skew(35deg);
+}
 /*# sourceMappingURL=main.css.map */

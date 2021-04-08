@@ -22,3 +22,30 @@ TABLE OF CONTENTS:
 *, *::before, *::after {
 	box-sizing: border-box;
 }
+
+body{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 100vh;
+	grid-auto-rows: auto;
+	font-family: 'Lucida Sans', sans-serif;
+	place-items: center;
+}
+
+.initial-display{
+	height: 400px;
+	width: 400px;
+	position: relative;
+	background: black;
+}
+
+.leaf{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	background-color: greenyellow;
+	width: 30px;
+	height: 30px;
+	border-radius: 9999px;
+	transform: skew(35deg)
+}
