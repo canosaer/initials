@@ -187,23 +187,35 @@ body > *:nth-child(2) {
           transform: scale(6);
   left: 45%;
 }
+.initial-display_g:hover .leaf_main {
+  -webkit-transform: scale(2.5);
+          transform: scale(2.5);
+  left: 45%;
+  bottom: 60%;
+}
 .initial-display_g:hover .stem_left-1 {
   -webkit-transform: rotate(-75deg) scaleX(-1) scale(3);
           transform: rotate(-75deg) scaleX(-1) scale(3);
   left: 45%;
   bottom: 40%;
 }
-.initial-display_g:hover .leaf_main {
-  -webkit-transform: scale(2.5);
-          transform: scale(2.5);
-  bottom: 60%;
-  left: 45%;
-}
 .initial-display_g:hover .leaf_left-1 {
   -webkit-transform: rotate(-75deg) scaleX(-1) scale(1.25);
           transform: rotate(-75deg) scaleX(-1) scale(1.25);
-  bottom: 47.5%;
   left: 16%;
+  bottom: 47.5%;
+}
+.initial-display_g:hover .stem_left-2 {
+  -webkit-transform: rotate(-90deg) scale(2.25);
+          transform: rotate(-90deg) scale(2.25);
+  left: 42%;
+  bottom: 27%;
+}
+.initial-display_g:hover .leaf_left-2 {
+  -webkit-transform: rotate(-90deg) scale(1);
+          transform: rotate(-90deg) scale(1);
+  left: 19%;
+  bottom: 27%;
 }
 
 .stem {
@@ -229,6 +241,12 @@ body > *:nth-child(2) {
   left: 40%;
   bottom: 6%;
 }
+.stem_left-2 {
+  -webkit-transform: rotate(-90deg) scale(0);
+          transform: rotate(-90deg) scale(0);
+  left: 39%;
+  bottom: 5%;
+}
 
 .leaf {
   position: absolute;
@@ -252,5 +270,11 @@ body > *:nth-child(2) {
           transform: rotate(-75deg) scaleX(-1) scale(0);
   left: 40%;
   bottom: 6%;
+}
+.leaf_left-2 {
+  -webkit-transform: rotate(-90deg) scale(0);
+          transform: rotate(-90deg) scale(0);
+  left: 39%;
+  bottom: 5%;
 }
 /*# sourceMappingURL=main.css.map */

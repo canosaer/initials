@@ -47,22 +47,34 @@ body{
 		left: 45%;
 	}
 
+	&:hover .leaf_main{
+		transform: scale(2.5);
+		left: 45%;
+		bottom: 60%;
+	}
+
 	&:hover .stem_left-1{
 		transform: rotate(-75deg) scaleX(-1) scale(3);
 		left: 45%;
 		bottom: 40%;
 	}
 
-	&:hover .leaf_main{
-		transform: scale(2.5);
-		bottom: 60%;
-		left: 45%;
-	}
-
 	&:hover .leaf_left-1{
 		transform: rotate(-75deg) scaleX(-1) scale(1.25);
-		bottom: 47.5%;
 		left: 16%;
+		bottom: 47.5%;
+	}
+
+	&:hover .stem_left-2{
+		transform: rotate(-90deg) scale(2.25);
+		left: 42%;
+		bottom: 27%;
+	}
+
+	&:hover .leaf_left-2{
+		transform: rotate(-90deg) scale(1);
+		left: 19%;
+		bottom: 27%;
 	}
 	
 }
@@ -87,6 +99,12 @@ body{
 		left: 40%;
 		bottom: 6%;
 	}
+	
+	&_left-2{
+		transform: rotate(-90deg) scale(0);
+		left: 39%;
+		bottom: 5%;
+	}
 }
 
 .leaf{
@@ -108,5 +126,11 @@ body{
 		transform: rotate(-75deg) scaleX(-1) scale(0);
 		left: 40%;
 		bottom: 6%;
+	}
+
+	&_left-2{
+		transform: rotate(-90deg) scale(0);
+		left: 39%;
+		bottom: 5%;
 	}
 }
