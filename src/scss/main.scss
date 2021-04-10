@@ -29,7 +29,7 @@ body{
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 100vh;
 	grid-auto-rows: auto;
-	font-family: 'Lucida Sans', sans-serif;
+	font-family: 'Gill Sans', sans-serif;
 	place-items: center;
 }
 
@@ -37,10 +37,37 @@ body{
 	height: 400px;
 	width: 400px;
 	position: relative;
-	background: red;
+	background: powderblue;
+}
+
+.letter{
+	position: absolute;
+	z-index: 0;
+	font-size: 15rem;
+	left: 25%;
+	opacity: 75%;
+	transition: all 300ms ease-in-out;
+}
+
+.desc{
+	position: absolute;
+	z-index: 0;
+	font-size: 2rem;
+	left: 27%;
+	top: 56%;
+	opacity: 75%;
+	transition: all 300ms ease-in-out;
 }
 
 .initial-display_g{
+
+	&:hover .letter{
+		opacity: 0%;
+	}
+
+	&:hover .desc{
+		opacity: 0%;
+	}
 
 	&:hover .stem_main{
 		transform: scale(6);
@@ -76,6 +103,54 @@ body{
 		left: 19%;
 		bottom: 27%;
 	}
+
+	&:hover .stem_left-3{
+		transform: rotate(-75deg) scaleX(-1) scale(1.5);
+		left: 38%;
+		bottom: 7%;
+	}
+
+	&:hover .leaf_left-3{
+		transform: rotate(-75deg) scaleX(-1) scale(0.8);
+		left: 23%;
+		bottom: 11%;
+	}
+
+	&:hover .stem_right-1{
+		transform: rotate(75deg) scale(2.75);
+		left: 48%;
+		bottom: 44%;
+	}
+
+	&:hover .leaf_right-1{
+		transform: rotate(75deg) scale(1.2);
+		left: 76%;
+		bottom: 51.2%;
+	}
+
+	&:hover .stem_right-2{
+		transform: rotate(90deg) scaleX(-1) scale(2.2);
+		left: 45%;
+		bottom: 32%;
+	}
+
+	&:hover .leaf_right-2{
+		transform: rotate(90deg) scaleX(-1) scale(0.9);
+		left: 68%;
+		bottom: 32.5%;
+	}
+
+	&:hover .stem_right-3{
+		transform: rotate(75deg) scale(1.4);
+		left: 42%;
+		bottom: 11%;
+	}
+
+	&:hover .leaf_right-3{
+		transform: rotate(75deg) scale(0.7);
+		left: 56%;
+		bottom: 15%;
+	}
 	
 }
 
@@ -97,13 +172,37 @@ body{
 	&_left-1{
 		transform: rotate(-75deg) scaleX(-1) scale(0);
 		left: 40%;
-		bottom: 6%;
+		bottom: 7%;
 	}
 	
 	&_left-2{
 		transform: rotate(-90deg) scale(0);
 		left: 39%;
 		bottom: 5%;
+	}
+
+	&_left-3{
+		transform: rotate(-75deg) scaleX(-1) scale(0);
+		left: 39%;
+		bottom: 1%;
+	}
+
+	&_right-1{
+		transform: rotate(75deg) scale(0);
+		left: 40.5%;
+		bottom: 8%;
+	}
+
+	&_right-2{
+		transform: rotate(90deg) scaleX(-1) scale(0);
+		left: 40%;
+		bottom: 6%;
+	}
+
+	&_right-3{
+		transform: rotate(75deg) scale(0);
+		left: 40%;
+		bottom: 2%;
 	}
 }
 
@@ -125,12 +224,36 @@ body{
 	&_left-1{
 		transform: rotate(-75deg) scaleX(-1) scale(0);
 		left: 40%;
-		bottom: 6%;
+		bottom: 7%;
 	}
 
 	&_left-2{
 		transform: rotate(-90deg) scale(0);
 		left: 39%;
 		bottom: 5%;
+	}
+
+	&_left-3{
+		transform: rotate(-75deg) scaleX(-1) scale(0);
+		left: 39%;
+		bottom: 1%;
+	}
+
+	&_right-1{
+		transform: rotate(75deg) scale(0);
+		left: 40%;
+		bottom: 7.75%;
+	}
+
+	&_right-2{
+		transform: rotate(90deg) scaleX(-1) scale(0);
+		left: 40%;
+		bottom: 6%;
+	}
+
+	&_right-3{
+		transform: rotate(75deg) scale(0);
+		left: 39%;
+		bottom: 1.5%;
 	}
 }

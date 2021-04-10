@@ -161,7 +161,7 @@ body {
   -ms-grid-rows: 100vh;
   grid-template-rows: 100vh;
   grid-auto-rows: auto;
-  font-family: "Lucida Sans", sans-serif;
+  font-family: "Gill Sans", sans-serif;
   place-items: center;
 }
 
@@ -179,9 +179,34 @@ body > *:nth-child(2) {
   height: 400px;
   width: 400px;
   position: relative;
-  background: red;
+  background: powderblue;
 }
 
+.letter {
+  position: absolute;
+  z-index: 0;
+  font-size: 15rem;
+  left: 25%;
+  opacity: 75%;
+  transition: all 300ms ease-in-out;
+}
+
+.desc {
+  position: absolute;
+  z-index: 0;
+  font-size: 2rem;
+  left: 27%;
+  top: 56%;
+  opacity: 75%;
+  transition: all 300ms ease-in-out;
+}
+
+.initial-display_g:hover .letter {
+  opacity: 0%;
+}
+.initial-display_g:hover .desc {
+  opacity: 0%;
+}
 .initial-display_g:hover .stem_main {
   -webkit-transform: scale(6);
           transform: scale(6);
@@ -217,6 +242,54 @@ body > *:nth-child(2) {
   left: 19%;
   bottom: 27%;
 }
+.initial-display_g:hover .stem_left-3 {
+  -webkit-transform: rotate(-75deg) scaleX(-1) scale(1.5);
+          transform: rotate(-75deg) scaleX(-1) scale(1.5);
+  left: 38%;
+  bottom: 7%;
+}
+.initial-display_g:hover .leaf_left-3 {
+  -webkit-transform: rotate(-75deg) scaleX(-1) scale(0.8);
+          transform: rotate(-75deg) scaleX(-1) scale(0.8);
+  left: 23%;
+  bottom: 11%;
+}
+.initial-display_g:hover .stem_right-1 {
+  -webkit-transform: rotate(75deg) scale(2.75);
+          transform: rotate(75deg) scale(2.75);
+  left: 48%;
+  bottom: 44%;
+}
+.initial-display_g:hover .leaf_right-1 {
+  -webkit-transform: rotate(75deg) scale(1.2);
+          transform: rotate(75deg) scale(1.2);
+  left: 76%;
+  bottom: 51.2%;
+}
+.initial-display_g:hover .stem_right-2 {
+  -webkit-transform: rotate(90deg) scaleX(-1) scale(2.2);
+          transform: rotate(90deg) scaleX(-1) scale(2.2);
+  left: 45%;
+  bottom: 32%;
+}
+.initial-display_g:hover .leaf_right-2 {
+  -webkit-transform: rotate(90deg) scaleX(-1) scale(0.9);
+          transform: rotate(90deg) scaleX(-1) scale(0.9);
+  left: 68%;
+  bottom: 32.5%;
+}
+.initial-display_g:hover .stem_right-3 {
+  -webkit-transform: rotate(75deg) scale(1.4);
+          transform: rotate(75deg) scale(1.4);
+  left: 42%;
+  bottom: 11%;
+}
+.initial-display_g:hover .leaf_right-3 {
+  -webkit-transform: rotate(75deg) scale(0.7);
+          transform: rotate(75deg) scale(0.7);
+  left: 56%;
+  bottom: 15%;
+}
 
 .stem {
   position: absolute;
@@ -239,13 +312,37 @@ body > *:nth-child(2) {
   -webkit-transform: rotate(-75deg) scaleX(-1) scale(0);
           transform: rotate(-75deg) scaleX(-1) scale(0);
   left: 40%;
-  bottom: 6%;
+  bottom: 7%;
 }
 .stem_left-2 {
   -webkit-transform: rotate(-90deg) scale(0);
           transform: rotate(-90deg) scale(0);
   left: 39%;
   bottom: 5%;
+}
+.stem_left-3 {
+  -webkit-transform: rotate(-75deg) scaleX(-1) scale(0);
+          transform: rotate(-75deg) scaleX(-1) scale(0);
+  left: 39%;
+  bottom: 1%;
+}
+.stem_right-1 {
+  -webkit-transform: rotate(75deg) scale(0);
+          transform: rotate(75deg) scale(0);
+  left: 40.5%;
+  bottom: 8%;
+}
+.stem_right-2 {
+  -webkit-transform: rotate(90deg) scaleX(-1) scale(0);
+          transform: rotate(90deg) scaleX(-1) scale(0);
+  left: 40%;
+  bottom: 6%;
+}
+.stem_right-3 {
+  -webkit-transform: rotate(75deg) scale(0);
+          transform: rotate(75deg) scale(0);
+  left: 40%;
+  bottom: 2%;
 }
 
 .leaf {
@@ -269,12 +366,36 @@ body > *:nth-child(2) {
   -webkit-transform: rotate(-75deg) scaleX(-1) scale(0);
           transform: rotate(-75deg) scaleX(-1) scale(0);
   left: 40%;
-  bottom: 6%;
+  bottom: 7%;
 }
 .leaf_left-2 {
   -webkit-transform: rotate(-90deg) scale(0);
           transform: rotate(-90deg) scale(0);
   left: 39%;
   bottom: 5%;
+}
+.leaf_left-3 {
+  -webkit-transform: rotate(-75deg) scaleX(-1) scale(0);
+          transform: rotate(-75deg) scaleX(-1) scale(0);
+  left: 39%;
+  bottom: 1%;
+}
+.leaf_right-1 {
+  -webkit-transform: rotate(75deg) scale(0);
+          transform: rotate(75deg) scale(0);
+  left: 40%;
+  bottom: 7.75%;
+}
+.leaf_right-2 {
+  -webkit-transform: rotate(90deg) scaleX(-1) scale(0);
+          transform: rotate(90deg) scaleX(-1) scale(0);
+  left: 40%;
+  bottom: 6%;
+}
+.leaf_right-3 {
+  -webkit-transform: rotate(75deg) scale(0);
+          transform: rotate(75deg) scale(0);
+  left: 39%;
+  bottom: 1.5%;
 }
 /*# sourceMappingURL=main.css.map */
