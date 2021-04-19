@@ -285,7 +285,7 @@ body{
 	
 	&_right{
 		top: 6.2rem;
-		left: 13.8rem;
+		left: 13.9rem;
 	}
 
 	&_left{
@@ -504,6 +504,73 @@ body{
 	}
 
 	&_right{
-		display: none;
+		top: 13rem;
+		left: 16.4rem;
+		transform: rotate(20deg)
+	}
+}
+
+.claw{
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	border-right: 60px solid transparent;
+	border-top: 60px solid red;
+	border-left: 60px solid red;
+	border-bottom: 60px solid red;
+	border-top-left-radius: 60px;
+	border-top-right-radius: 60px;
+	border-bottom-left-radius: 60px;
+	border-bottom-right-radius: 60px;
+
+	&_left{
+		top: 6.75rem;
+		left: 2.9rem;
+		transform: rotate(-105deg) scale(0.85);
+	}
+
+	&_right{
+		top: 6.75rem;
+		left: 14.75rem;
+		transform: rotate(-75deg) scale(0.85);
+	}
+}
+
+.eye{
+	width: 45px;
+	height: 45px;
+	background: white;
+	border-radius: 9999px;
+	border: 2px solid black;
+	position: absolute;	
+	z-index: 4;
+
+	&_left{
+		top: 13rem;
+		left: 9.9rem;
+	}
+
+	&_right{
+		top: 13rem;
+		left: 12.3rem;
+	}
+}
+
+.iris{
+	width: 25px;
+	height: 25px;
+	background: black;
+	position: absolute;
+	z-index: 5;
+	border-radius: 999px;
+
+	&_left{
+		top: 13.5rem;
+		left: 10.5rem;
+	}
+
+	&_right{
+		top: 13.4rem;
+		left: 12.9rem;
 	}
 }
