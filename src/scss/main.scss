@@ -43,8 +43,6 @@ body{
 .letter{
 	position: absolute;
 	z-index: 0;
-	font-size: 15rem;
-	left: 25%;
 	opacity: 75%;
 	transition: all 300ms ease-in-out;
 }
@@ -52,14 +50,22 @@ body{
 .desc{
 	position: absolute;
 	z-index: 0;
-	font-size: 2rem;
-	left: 27%;
-	top: 56%;
 	opacity: 75%;
 	transition: all 300ms ease-in-out;
 }
 
 //-----------------GARDEN-------------------
+
+.letter_g{
+	font-size: 15rem;
+	left: 25%;
+}
+
+.desc_g{
+	font-size: 2rem;
+	left: 27%;
+	top: 56%;
+}
 
 .initial-display_g{
 
@@ -262,6 +268,31 @@ body{
 
 
 //-----------------CRAB-------------------
+
+.letter_c{
+	left: 1rem;
+	font-size: 8rem;
+}
+
+.desc_c{
+	top: 2rem;
+	left: 8.5rem;
+	font-size: 3rem;
+}
+
+.initial-display_c{
+	&:hover .claw{
+		animation-play-state: running;
+	}
+
+	&:hover .letter{
+		opacity: 0%;
+	}
+
+	&:hover .desc{
+		opacity: 0%;
+	}
+}
 
 .body{
 	border-bottom: 100px solid red;
@@ -523,16 +554,60 @@ body{
 	border-bottom-left-radius: 60px;
 	border-bottom-right-radius: 60px;
 
+	animation-duration: 500ms;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+	animation-play-state: paused;
+	animation-direction: alternate;
+	animation-timing-function: ease-in;
+
 	&_left{
 		top: 6.75rem;
 		left: 2.9rem;
 		transform: rotate(-105deg) scale(0.85);
+
+		&_snapper-left{
+			top: 6.75rem;
+			left: 2.9rem;
+			transform: rotate(-105deg) scale(0.85);
+			animation-delay: 500ms;
+
+			animation-name: claw_left_snapper-left;
+			
+		}
+
+		&_snapper-right{
+			top: 6.75rem;
+			left: 2.9rem;
+			transform: rotate(-105deg) scale(0.85);
+			animation-delay: 500ms;
+
+			animation-name: claw_left_snapper-right;
+		}
 	}
+
+	
 
 	&_right{
 		top: 6.75rem;
 		left: 14.75rem;
 		transform: rotate(-75deg) scale(0.85);
+
+		&_snapper-left{
+			top: 6.75rem;
+			left: 14.75rem;
+			transform: rotate(-75deg) scale(0.85);
+
+			animation-name: claw_right_snapper-left;
+		}
+
+		&_snapper-right{
+			top: 6.75rem;
+			left: 14.75rem;
+			transform: rotate(-75deg) scale(0.85);
+
+			animation-name: claw_right_snapper-right;
+		}
 	}
 }
 
@@ -572,5 +647,45 @@ body{
 	&_right{
 		top: 13.4rem;
 		left: 12.9rem;
+	}
+}
+
+@keyframes claw_left_snapper-left{
+	0% {
+		transform: rotate(-105deg) scale(0.85);
+	}
+
+	100%{
+		transform: rotate(-62deg) scale(0.85);
+	}
+}
+
+@keyframes claw_left_snapper-right{
+	0% {
+		transform: rotate(-105deg) scale(0.85);
+	}
+
+	100%{
+		transform: rotate(-148deg) scale(0.85);
+	}
+}
+
+@keyframes claw_right_snapper-left{
+	0% {
+		transform: rotate(-75deg) scale(0.85);
+	}
+
+	100%{
+		transform: rotate(-32deg) scale(0.85);
+	}
+}
+
+@keyframes claw_right_snapper-right{
+	0% {
+		transform: rotate(-75deg) scale(0.85);
+	}
+
+	100%{
+		transform: rotate(-118deg) scale(0.85);
 	}
 }
