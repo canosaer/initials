@@ -135,7 +135,7 @@ table {
 
 /* 
 ==============================================
-CONTENT:	Project Name Here
+CONTENT:	Initials
 AUTHOR:		Eric Canosa
 ==============================================
 
@@ -397,5 +397,191 @@ body > *:nth-child(2) {
           transform: rotate(75deg) scale(0);
   left: 39%;
   bottom: 1.5%;
+}
+
+.body {
+  border-bottom: 100px solid red;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-radius: 24px;
+  height: 0;
+  width: 10rem;
+  position: relative;
+  left: 7.5rem;
+  top: 15.2rem;
+  z-index: 2;
+}
+
+.shoulder-shaper {
+  width: 2.7rem;
+  height: 2.7rem;
+  overflow: hidden;
+  position: relative;
+  z-index: 3;
+}
+.shoulder-shaper_right {
+  top: 6.2rem;
+  left: 13.8rem;
+}
+.shoulder-shaper_left {
+  top: 8.95rem;
+  left: 8.45rem;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+.shoulder-shaper:before {
+  content: "";
+  display: block;
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  border-radius: 50%;
+}
+.shoulder-shaper_right:before {
+  top: 0;
+  right: 0;
+  box-shadow: 50px -50px 0 0 powderblue;
+}
+.shoulder-shaper_left:before {
+  top: 0;
+  right: 0;
+  box-shadow: 50px -50px 0 0 powderblue;
+}
+
+.joint {
+  width: 1.2rem;
+  height: 1.2rem;
+  position: relative;
+  background: red;
+  border: 2px solid black;
+  border-radius: 9999px;
+  z-index: 1;
+}
+.joint_left-1 {
+  left: 7.7rem;
+  top: 6.2rem;
+}
+.joint_left-2 {
+  left: 7.4rem;
+  top: 6.3rem;
+}
+.joint_left-3 {
+  left: 7.4rem;
+  top: 6.4rem;
+}
+.joint_left-4 {
+  left: 8.8rem;
+  top: 5.55rem;
+}
+.joint_right-1 {
+  left: 16.1rem;
+  top: 1.45rem;
+}
+.joint_right-2 {
+  left: 16.4rem;
+  top: 1.55rem;
+}
+.joint_right-3 {
+  left: 16.5rem;
+  top: 1.6rem;
+}
+.joint_right-4 {
+  left: 15.25rem;
+  top: 0.8rem;
+}
+
+.leg {
+  width: 65px;
+  height: 25px;
+  border-radius: 50%;
+  box-shadow: 10px 10px 0 0 red;
+  position: absolute;
+  z-index: 0;
+}
+.leg_left-1 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  top: 18.5rem;
+  left: 4.8rem;
+}
+.leg_left-2 {
+  -webkit-transform: rotate(160deg);
+          transform: rotate(160deg);
+  top: 20.15rem;
+  left: 4.8rem;
+}
+.leg_left-3 {
+  -webkit-transform: rotate(140deg);
+          transform: rotate(140deg);
+  top: 21.8rem;
+  left: 5.4rem;
+}
+.leg_left-4 {
+  -webkit-transform: rotate(120deg);
+          transform: rotate(120deg);
+  top: 22rem;
+  left: 7.8rem;
+}
+.leg_right-1 {
+  -webkit-transform: rotate(178deg) scaleX(-1);
+          transform: rotate(178deg) scaleX(-1);
+  top: 18.5rem;
+  left: 16rem;
+}
+.leg_right-2 {
+  -webkit-transform: rotate(200deg) scaleX(-1);
+          transform: rotate(200deg) scaleX(-1);
+  top: 20rem;
+  left: 16.15rem;
+}
+.leg_right-3 {
+  -webkit-transform: rotate(220deg) scaleX(-1);
+          transform: rotate(220deg) scaleX(-1);
+  top: 21.7rem;
+  left: 15.9rem;
+}
+.leg_right-4 {
+  -webkit-transform: rotate(230deg) scaleX(-1);
+          transform: rotate(230deg) scaleX(-1);
+  top: 22.2rem;
+  left: 13.9rem;
+}
+
+.mouth {
+  z-index: 3;
+  width: 80px;
+  height: 35px;
+  border: 3px solid black;
+  border-radius: 100px/50px;
+  top: 17rem;
+  left: 9.95rem;
+  position: absolute;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.cheek {
+  z-index: 3;
+  width: 20px;
+  height: 10px;
+  border: 3px solid black;
+  border-radius: 100px/50px;
+  position: absolute;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.cheek_left {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  top: 17.8rem;
+  left: 9.2rem;
+}
+.cheek_right {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  top: 17.8rem;
+  left: 14.5rem;
 }
 /*# sourceMappingURL=main.css.map */
