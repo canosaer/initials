@@ -584,4 +584,47 @@ body > *:nth-child(2) {
   top: 17.8rem;
   left: 14.5rem;
 }
+
+.arm {
+  border-bottom: 45px solid red;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  height: 0;
+  width: 15px;
+  position: absolute;
+  z-index: 3;
+}
+.arm_left {
+  -webkit-transform: rotate(-35deg);
+          transform: rotate(-35deg);
+  top: 13.5rem;
+  left: 8rem;
+}
+.arm_right {
+  -webkit-transform: rotate(35deg);
+          transform: rotate(35deg);
+  top: 13.5rem;
+  left: 16rem;
+}
+
+.arm-joint {
+  width: 1.2rem;
+  height: 1.2rem;
+  position: absolute;
+  width: 30px;
+  height: 17px;
+  background: red;
+  border-radius: 100px/50px;
+  border: 2px solid black;
+  z-index: 3;
+}
+.arm-joint_left {
+  top: 13rem;
+  left: 6.7rem;
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+}
+.arm-joint_right {
+  display: none;
+}
 /*# sourceMappingURL=main.css.map */
